@@ -3,28 +3,38 @@ body {
     
 }
 nav {
+    text-align: center;
     background-color: steelblue;
     padding: 10px;
 }
 a {
     color: white;
     margin: 40px;
+    font-size: 1.5em;
 }
 h1 {
+    text-align: center;
     color: steelblue;
 }
 img {
-    width: 800px;
-    border: 4px solid steelblue;
+    width: 80%;
+    display: block;
+    margin: block;
+    border: 2px solid steelblue;
 }
 p {
     padding: 10px;
+    width: 80%;
 }
 footer {
+    text-align: center;
     background-color: steelblue;
     color: white;
 }
 .main-para {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
     font-size: 1.5em;
     line-height: 1.5em;
 }
