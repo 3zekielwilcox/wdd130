@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rock+Salt&display=swap');
+
+.home-title {
+    font-family: 'Rock Salt', 'Sans Serif';
+    font-size: 2em;
+    color: #023047;
+    margin-top: 10px;
+}
+
 body {
     max-width: 1600px;
-    background-color: #FFF ;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
-    background-color: #023047 ;
+    background-color: #023047;
 }
 
 #content {
@@ -16,6 +31,7 @@ nav a {
     color: #8ECAE6;
     background-color: #023047;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -40,10 +56,6 @@ main section {
     color: #FFF;
 }
 
-.home-title {
-    color: #023047;
-}
-
 h4 {
     color: #023047;
 }
@@ -52,6 +64,11 @@ h4 {
     color: #023047;
     background-color: #8ECAE6;
     text-decoration: none;
+    font-family: 'Rock Salt', 'Sans Serif';
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -61,25 +78,40 @@ h4 {
 
 .msg h2 {
     color: #023047;
+    font-family: 'Rock Salt', 'Sans Serif';
+    font-size: 2em;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg p {
     color: #023047;
+    font-family: 'Open Sans', 'Sans Serif';
+    font-size: .8em;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+    padding: 35px;
 }
 
 footer {
     color: #023047;
+    padding: 25px 50px;
 }
 
 footer a {
     color: #023047;
     background-color: #8ECAE6;
     text-decoration: none;
+    margin-top: 200px
 }
 
 footer a:hover {
     color: #8ECAE6;
     background-color: #023047;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 .logo {
@@ -92,4 +124,24 @@ footer p {
 
 footer p:hover {
     text-decoration: underline;
+}
+
+#logo-link {
+    padding-top: 5px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #023047;
+}
+
+main section img {
+    box-sizing: border-box;
 }
