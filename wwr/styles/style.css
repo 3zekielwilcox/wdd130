@@ -134,8 +134,8 @@ h4 {
 }
 
 footer {
-    color: #023047;
-    background-color: #8ECAE6;
+    color: #8ECAE6;
+    background-color: #023047;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -144,8 +144,8 @@ footer {
 }
 
 footer a {
-    color: #023047;
-    background-color: #8ECAE6;
+    color: #8ECAE6;
+    background-color: #023047;
     text-decoration: none;
     margin-top: 200px
 }
@@ -225,6 +225,78 @@ main section img {
 .rapids-card {
     grid-column: 8/10;
     grid-row: 2/3;
+}
+
+--------------------------
+
+.rivers-title {
+    font-family: 'Rock Salt', 'Sans Serif';
+    font-size: 2em;
+    color: #023047;
+    margin-top: 10px;
+}
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.fork1 {
+    border: 10px solid #023047;
+    width: 100%;
+    grid-column: 2/8;
+    grid-row: 5/9;
+    box-shadow: 5px 5px 10px #6f7364;
+    z-index: -1;
+}
+
+.desolation_canyon {
+    border: 10px solid #023047;
+    width: 100%;
+    grid-column: 2/8;
+    grid-row: 11/14;
+    box-shadow: 5px 5px 10px #6f7364;
+    z-index: -1;
+}
+
+.grand_canyon {
+    border: 10px solid #023047;
+    width: 100%;
+    grid-column: 2/8;
+    grid-row: 16/19;
+    box-shadow: 5px 5px 10px #6f7364;
+    z-index: -1;
+}
+
+.msg_1 {
+    background-color: #FFF;
+    grid-column: 6/13;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+    font-size: 1.3em;
+    padding: 35px;
+    padding-bottom: 0px;
+    
+}
+
+.msg_2 {
+    background-color: #FFF;
+    grid-column: 6/11;
+    grid-row: 12/13;
+    box-shadow: 5px 5px 10px #6f7364;
+    font-size: 1.3em;
+    padding: 35px;
+    padding-bottom: 0px;
+}
+
+.msg_3 {
+    background-color: #FFF;
+    grid-column: 6/11;
+    grid-row: 17/18;
+    box-shadow: 5px 5px 10px #6f7364;
+    font-size: 1.3em;
+    padding: 35px;
+    padding-bottom: 0px;
 }
 
 @media screen and (max-width: 900px) {
