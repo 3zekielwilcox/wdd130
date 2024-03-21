@@ -110,6 +110,7 @@ h2 {
     text-align: center;
     line-height: 1.5em;
     padding: 50px;
+    margin-bottom: -3.5em;
 }
 
 .msg_2 {
@@ -199,4 +200,217 @@ footer .social img:hover {
 
 footer p {
     font-size: 2em;
+}
+
+/* ----------------------------------- */
+
+.prof-title {
+    font-family: 'Arial', 'Sans Serif';
+    font-size: 6em;
+    color: #03045E;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.prof-grid {
+    display: grid;
+    grid-template-columns: 2.5% 50% 50% 2.5%;
+    grid-template-rows: 2fr 2.5% 0.75fr 2.5% 1fr;
+    max-width: 97.5%;
+}
+
+.pro_history2 {
+    width: 95%;
+    max-width: 100%;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.mission {
+    width: 95%;
+    max-width: 100%;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.pro_history1 {
+    width: 95%;
+    max-width: 100%;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_4 {
+    width: 95%;
+    background-color: #FFF;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_4 h2 {
+    color: #FFF;
+    background-color: #0D67B5;
+    font-size: 2em;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_4 p {
+    color: #03045E;
+    font-family: 'Sans Serif';
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 50px;
+    margin-bottom: -3.5em;
+}
+
+.msg_5 {
+    width: 95%;
+    background-color: #FFF;
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_5 h2 {
+    color: #FFF;
+    background-color: #0D67B5;
+    font-size: 2em;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_5 p {
+    color: #03045E;
+    font-family: 'Sans Serif';
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 50px;
+}
+
+/* ----------------------------------- */
+
+.hob-title {
+    font-family: 'Arial', 'Sans Serif';
+    font-size: 6em;
+    color: #03045E;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.hob-grid {
+    display: grid;
+    grid-template-columns: 2.5% 50% 50% 2.5%;
+    grid-template-rows: 0.5fr 2.5% 2fr 2.5% 2fr;
+    max-width: 97.5%;
+}
+
+.sing {
+    width: 95%;
+    max-width: 100%;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.hobby1 {
+    width: 95%;
+    max-width: 100%;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.hobby2 {
+    width: 95%;
+    max-width: 100%;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_6 {
+    width: 95%;
+    background-color: #FFF;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_6 h2 {
+    color: #FFF;
+    background-color: #0D67B5;
+    font-size: 2em;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_6 p {
+    color: #03045E;
+    font-family: 'Sans Serif';
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 50px;
+}
+
+.msg_7 {
+    width: 95%;
+    background-color: #FFF;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_7 h2 {
+    color: #FFF;
+    background-color: #0D67B5;
+    font-size: 2em;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_7 p {
+    color: #03045E;
+    font-family: 'Sans Serif';
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 50px;
+}
+
+.msg_8 {
+    width: 95%;
+    background-color: #FFF;
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_8 h2 {
+    color: #FFF;
+    background-color: #0D67B5;
+    font-size: 2em;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_8 p {
+    color: #03045E;
+    font-family: 'Sans Serif';
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 50px;
 }
