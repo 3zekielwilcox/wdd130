@@ -100,7 +100,7 @@ h2 {
     font-size: 2em;
     padding: 15px;
     text-align: center;
-    box-shadow: 5px #6f7364;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .msg_1 p {
