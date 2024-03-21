@@ -1,0 +1,202 @@
+header {
+    background-color: #0D67B5;
+    display: grid;
+    grid-template-columns: 15% auto;
+    min-width: 1800px;
+}
+
+.ezekiel-logo {
+    max-width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    font-family: 'Arial', 'Sans Serif';
+    text-align: center;
+    color: #FFF;
+    background-color: #0D67B5;
+    text-decoration: none;
+    padding-top: 8%;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 2em;
+}
+
+nav a:hover {
+    color: #0D67B5;
+    background-color: #FFF;
+}
+
+.home-title {
+    font-family: 'Arial', 'Sans Serif';
+    font-size: 6em;
+    color: #03045E;
+    margin-top: 50px;
+    text-align: center;
+}
+
+body {
+    max-width: 100%;
+    min-width: 1800px;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+#content {
+    margin: 0 auto;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 2.5% 50% 50% 2.5%;
+    grid-template-rows: 1fr 2.5% 1fr 2.5% 1fr;
+    max-width: 97.5%;
+}
+
+.home1 {
+    width: 95%;
+    max-width: 100%;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.home2 {
+    width: 95%;
+    max-width: 100%;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.home3 {
+    width: 95%;
+    max-width: 100%;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_1 {
+    width: 95%;
+    background-color: #FFF;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_1 h2 {
+    color: #FFF;
+    background-color: #0D67B5;
+    font-size: 2em;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px #6f7364;
+}
+
+.msg_1 p {
+    color: #03045E;
+    font-family: 'Sans Serif';
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 50px;
+}
+
+.msg_2 {
+    width: 95%;
+    background-color: #FFF;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_2 h2 {
+    color: #FFF;
+    background-color: #0D67B5;
+    font-size: 2em;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_2 p {
+    color: #03045E;
+    font-family: 'Sans Serif';
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 50px;
+}
+
+.msg_3 {
+    width: 95%;
+    background-color: #FFF;
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_3 h2 {
+    color: #FFF;
+    background-color: #0D67B5;
+    font-size: 2em;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg_3 p {
+    color: #03045E;
+    font-family: 'Sans Serif';
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 50px;
+}
+
+footer {
+    min-width: 1800px;
+    color: #FFF;
+    background-color: #0D67B5;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #FFF;
+    background-color: #0D67B5;
+    text-decoration: none;
+    margin-top: 200px
+}
+
+footer a:hover {
+    color: #0D67B5;
+    background-color: #FFF;
+}
+
+footer .social img {
+    padding: 15px;
+    max-width: 200px;
+    background-color: #FFF;
+}
+
+footer .social img:hover {
+    transform: scale(1.1);
+}
+
+footer p {
+    font-size: 2em;
+}
