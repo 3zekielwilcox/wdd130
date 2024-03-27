@@ -64,12 +64,42 @@ h2 {
     max-width: 1450px;
 }
 
+.container {
+    position: relative;
+    width: 100%;
+}
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.container:hover .middle {
+    opacity: 1;
+}
+  
+.text {
+    background-color: #CAF0F8;
+    color: #000;
+    font-size: 30px;
+    padding: 16px 32px;
+}
+
 .home1 {
     width: 95%;
     max-width: 100%;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     box-shadow: 5px 5px 10px #6f7364;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .home2 {
@@ -210,6 +240,8 @@ footer .social img:hover {
 footer p {
     font-size: 2em;
 }
+
+
 
 /* ----------------------------------- */
 
