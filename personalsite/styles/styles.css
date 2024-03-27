@@ -239,14 +239,16 @@ footer p {
 
 .pro_history1 {
     width: 95%;
-    max-width: 100%;
     grid-column: 2 / 3;
     grid-row: 5 / 6;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.msg_4 {
-    width: 95%;
+.msg_9 {
+    width: 120%;
+    height: 100%;
+    min-height: 1200px;
+    max-height: 1300px;
     background-color: #FFF;
     grid-column: 3 / 4;
     grid-row: 3 / 4;
